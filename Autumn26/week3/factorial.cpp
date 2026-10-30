@@ -1,9 +1,0 @@
-#include <iostream>
-int main(){
-    int n, acc = 1;
-    std::cin >> n;
-    for( int i = 0; i < n; i++ ){
-        acc = acc * ( n - i );
-    }
-    std::cout << acc << std::endl;
-}
